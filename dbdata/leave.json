@@ -1,0 +1,28 @@
+{
+  "leave": [
+    {
+      "startDate": "2023-12-07",
+      "endDate": "2023-12-16",
+      "Reason": "uuuuuuuuuu",
+      "id": 6
+    },
+    {
+      "startDate": "2023-12-15",
+      "endDate": "2023-12-15",
+      "Reason": "uuuuuuuuuuhhhhh",
+      "id": 8
+    },
+    {
+      "empname": "lwbx281",
+      "salaryDate": "2023-12-08",
+      "salaryAmount": "9000",
+      "id": 9
+    },
+    {
+      "startDate": "2023-12-14T18:30:00.000Z",
+      "endDate": "2023-12-08T18:30:00.000Z",
+      "Reason": "sadsa",
+      "id": 10
+    }
+  ]
+}

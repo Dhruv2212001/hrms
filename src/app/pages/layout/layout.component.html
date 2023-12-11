@@ -1,0 +1,93 @@
+<nav >
+    <!-- <ul class=""> -->
+     <!-- <div class="headerbutton"> -->
+      
+      <!-- <button class="btnclose"  (click)="addNewItem(this.sideBarFlag)" *ngIf="!showFirst"  class=" btn cursor-pointer  "data-bs-toggle="tooltip" data-bs-placement="top" title="Open sidebar" ><i class="fa-solid fa-bars" ></i></button>
+      <button class="btnclose"  (click)="closeTab(this.closesideBarFlag)" *ngIf="showFirst" class="btn cursor-pointer  "data-bs-toggle="tooltip" data-bs-placement="top" title="Close the sidebar" ><i class="fa-solid fa-close" ></i></button> -->
+      <!-- <mat-sidenav #sidenav [mode]="'side'">
+       <button (click)="sidenav.toggle()"></button>
+       </mat-sidenav>
+     </div> -->
+   <!-- <div class="text-center">HRMS Dashboard
+   </div> -->
+   
+   
+       
+       <ng-container *ngIf="menuType != 'default'">
+        <!-- <li class="nav-item">
+          <a class="nav-link mt-2" routerLink="home" routerLinkActive="active">Home</a>
+        </li> -->
+        <!-- <li class="nav-item">
+           <a class="nav-link mt-2" routerLink="dashboard" routerLinkActive="active">Dashboard</a>
+         </li>
+         <li class="nav-item">
+           <a class="nav-link mt-2" routerLink="employee" routerLinkActive="active">Employee</a>
+         </li>
+         <li class="nav-item">
+           <a class="nav-link mt-2" routerLink="attendance" routerLinkActive="active">Attendance</a>
+         </li>
+         <li class="nav-item">
+           <a class="nav-link mt-2" routerLink="leave" routerLinkActive="active">Leave</a>
+         </li>
+         <li class="nav-item">
+           <a class="nav-link mt-2" routerLink="salary" routerLinkActive="active">Salary</a>
+         </li> -->
+       </ng-container>
+   <!--     
+       <ng-container *ngIf=" this.menuType !=='seller'">
+         
+       </ng-container> -->
+   
+       <!-- <li><a type="button" (click)="onSignOut()" class="cursor-pointer text-blueviolet btn btn-primary .btn-primary:hover"></a></li> -->
+       <!-- <ng-container *ngIf="menuType == 'default'">
+         <a type="button" routerLink="login" routerLinkActive="active"
+             class="cursor-pointer text-blueviolet btn btn-primary .btn-primary:hover m-2">Sign In</a>
+       <a type="button"  routerLink="signup" routerLinkActive="active" class="cursor-pointer text-blueviolet btn btn-primary mt-2  .btn-primary:hover">Sign Up</a>
+       </ng-container>
+       <ng-container *ngIf="menuType != 'default'">
+         <div class="btnsign">
+        <a type="button" (click)="onSignOut()"
+             class="cursor-pointer text-blueviolet btn btn-primary  mt-2 .btn-primary:hover" data-bs-toggle="tooltip" data-bs-placement="top" title="Tooltip on top">Sign Out</a>
+           </div>
+           
+       </ng-container> -->
+   
+   
+     <!-- </ul> -->
+   </nav>
+   
+   <mat-toolbar color="primary">
+    <button mat-icon-button (click)="toggleMenu()" > 
+      <mat-icon *ngIf="showFirst">menu</mat-icon>
+      <mat-icon *ngIf="!showFirst">close</mat-icon>
+  </button>
+    
+    <!-- <button mat-icon-button class="example-icon btnclose"  #sidenav  (click)="addNewItem(this.sideBarFlag)" *ngIf="!showFirst"  aria-label="Example icon-button with menu icon">
+      <mat-icon>menu</mat-icon>
+    </button>
+    <button mat-icon-button class="example-icon btnclose" #sidenav   (click)="closeTab(this.closesideBarFlag)" *ngIf="showFirst"  aria-label="Example icon-button with menu icon">
+      <mat-icon>close</mat-icon>
+    </button> -->
+   
+    <span>Dashboard</span>
+    <span class="example-spacer"></span>
+    <!-- <button mat-icon-button class="example-icon favorite-icon" aria-label="Example icon-button with heart icon">
+      <mat-icon>favorite</mat-icon>
+    </button> -->
+
+    <ng-container *ngIf="menuType == 'default'">
+      <a type="button" routerLink="login" routerLinkActive="active"
+          class="cursor-pointer text-blueviolet btn btn-primary .btn-primary:hover m-2">Sign In</a>
+    <a type="button"  routerLink="signup" routerLinkActive="active" class="cursor-pointer text-blueviolet btn btn-primary mt-2  .btn-primary:hover">Sign Up</a>
+    </ng-container>
+    <ng-container *ngIf="menuType != 'default'">
+      <div class="btnsign">
+     <a type="button" (click)="onSignOut()"
+          class="cursor-pointer mt-2 " mat-raised-button color="warn" data-bs-toggle="tooltip" data-bs-placement="top" title="Log Out">Sign Out</a>
+        </div>
+        
+    </ng-container>
+
+  </mat-toolbar>
+
+   

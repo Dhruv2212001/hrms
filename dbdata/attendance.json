@@ -1,0 +1,58 @@
+{
+  "attendance": [
+    {
+      "employeeId": null,
+      "empname": "Dhruv panchal",
+      "attendanceDate": "2023-11-13",
+      "inTime": "11:09",
+      "outTime": "11:11",
+      "isFullDay": null,
+      "id": "nfLfE4e"
+    },
+    {
+      "employeeId": "",
+      "empname": "Dhruv panchal",
+      "attendanceDate": "2023-11-14",
+      "inTime": "17:15",
+      "outTime": "20:16",
+      "isFullDay": "",
+      "id": "q6r9z-5"
+    },
+    {
+      "employeeId": "",
+      "empname": "jaivek",
+      "attendanceDate": "2023-11-29",
+      "inTime": "16:34",
+      "outTime": "19:35",
+      "isFullDay": true,
+      "id": "BX0DZNA"
+    },
+    {
+      "employeeId": "",
+      "empname": "Dhruv panchal",
+      "attendanceDate": "2023-11-18",
+      "inTime": "12:23",
+      "outTime": "14:23",
+      "isFullDay": true,
+      "id": "d8sykuW"
+    },
+    {
+      "employeeId": "",
+      "empname": "Dhruv panchal",
+      "attendanceDate": "2023-11-08",
+      "inTime": "14:33",
+      "outTime": "13:33",
+      "isFullDay": false,
+      "id": "g9qokId"
+    },
+    {
+      "employeeId": "",
+      "empname": "Dhruv panchal",
+      "attendanceDate": "2023-11-02",
+      "inTime": "15:17",
+      "outTime": "18:12",
+      "isFullDay": true,
+      "id": "KwH4Qin"
+    }
+  ]
+}

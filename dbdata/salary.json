@@ -1,0 +1,132 @@
+{
+  "salary": [
+    {
+      "empname": "jaivek",
+      "salaryDate": "2023-11-03",
+      "totalAdvance": "3000",
+      "presentDays": "25",
+      "salaryAmount": "6000",
+      "id": 1
+    },
+    {
+      "empname": "Dhruv panchal",
+      "salaryDate": "2023-10-31",
+      "totalAdvance": "3000",
+      "presentDays": "25",
+      "salaryAmount": "100000",
+      "id": 2
+    },
+    {
+      "empname": "Dhruv panchal",
+      "salaryDate": "2023-11-07",
+      "totalAdvance": "30",
+      "presentDays": "25",
+      "salaryAmount": "25565",
+      "id": 4
+    },
+    {
+      "empname": "Dhruv panchal",
+      "salaryDate": "2023-11-08",
+      "totalAdvance": "3000",
+      "presentDays": "10",
+      "salaryAmount": "100000",
+      "id": 5
+    },
+    {
+      "empname": "Il9NEWE",
+      "salaryDate": "2023-11-16",
+      "salaryAmount": "200000",
+      "id": 6
+    },
+    {
+      "empname": "lwbx281",
+      "salaryDate": "2023-11-24",
+      "salaryAmount": "90000",
+      "id": 7
+    },
+    {
+      "empname": "YUhyRoU",
+      "salaryDate": "2023-11-02",
+      "salaryAmount": "20000",
+      "id": 8
+    },
+    {
+      "empname": "_B6-wnJ",
+      "salaryDate": "2023-11-16",
+      "salaryAmount": "200000",
+      "id": 11
+    },
+    {
+      "empname": "_B6-wnJ",
+      "salaryDate": "2023-11-22",
+      "salaryAmount": "6000",
+      "id": 12
+    },
+    {
+      "empname": "YUhyRoU",
+      "salaryDate": "2023-11-03",
+      "salaryAmount": "20000",
+      "id": 13
+    },
+    {
+      "empname": "AH-SVIy",
+      "salaryDate": "2023-12-09",
+      "salaryAmount": "50000",
+      "id": 14
+    },
+    {
+      "empname": "Il9NEWE",
+      "salaryDate": "2023-12-14",
+      "salaryAmount": "20",
+      "id": 15
+    },
+    {
+      "empname": "lwbx281",
+      "salaryDate": "2023-12-10",
+      "salaryAmount": "9000",
+      "id": 16
+    },
+    {
+      "empname": "eMyDk8Y",
+      "salaryDate": "2023-12-06",
+      "salaryAmount": "54545",
+      "id": 17
+    },
+    {
+      "empname": "lwbx281",
+      "salaryDate": "2023-12-14",
+      "salaryAmount": "9000",
+      "id": 18
+    },
+    {
+      "empname": "_B6-wnJ",
+      "salaryDate": "2023-12-01",
+      "salaryAmount": "200000",
+      "id": 19
+    },
+    {
+      "empname": "lwbx281",
+      "salaryDate": "2023-12-14",
+      "salaryAmount": "100000",
+      "id": 20
+    },
+    {
+      "empname": "6dDIOK5",
+      "salaryDate": "2023-12-14",
+      "salaryAmount": "20000",
+      "id": 21
+    },
+    {
+      "empname": "YUhyRoU",
+      "salaryDate": "2023-12-14",
+      "salaryAmount": "20000",
+      "id": 22
+    },
+    {
+      "empname": "lwbx281",
+      "salaryDate": "2023-11-30",
+      "salaryAmount": "9000",
+      "id": 23
+    }
+  ]
+}

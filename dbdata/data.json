@@ -1,0 +1,74 @@
+{
+  "seller": [
+    {
+      "name": "Dhruv Panchal",
+      "empEmail": "dhruv@gmail.com",
+      "password": "abc@123",
+      "id": 1,
+      "menu": "true"
+    },
+    {
+      "name": "komal",
+      "empEmail": "komalpanchal601@gmail.com",
+      "password": "112233",
+      "password-rep": "112233",
+      "id": 2
+    },
+    {
+      "name": "Dhruv panchal",
+      "email": "dhruvpanchal601@gmail.com",
+      "password": "dhruv123",
+      "password-rep": "dhruv123",
+      "id": 3
+    },
+    {
+      "name": "aaaaaa",
+      "email": "arpitpanchal601@gmail.com",
+      "password": "112233",
+      "password-rep": "  this.router.navigate(['seller-home'])",
+      "id": 4
+    },
+    {
+      "name": "",
+      "email": "",
+      "password": "",
+      "password-rep": "",
+      "id": 5
+    },
+    {
+      "name": "",
+      "email": "",
+      "password": "",
+      "password-rep": "",
+      "id": 6
+    },
+    {
+      "name": "Dhruv panchal",
+      "email": "dhruvpanchal601@gmail.com",
+      "password": "12345678",
+      "passwordRep": "12345678",
+      "id": 7
+    },
+    {
+      "name": "Dhruv panchal",
+      "email": "dhruvpanchal601@gmail.com",
+      "password": "12345678",
+      "passwordRep": "12345678",
+      "id": 8
+    },
+    {
+      "name": "Dhruv panchal",
+      "email": "dhruvpanchal601@gmail.com",
+      "password": "121212121",
+      "passwordRep": "2121212121",
+      "id": 9
+    },
+    {
+      "name": "Dhruv panchal",
+      "email": "test601@gmail.com",
+      "password": "test12345",
+      "passwordRep": "test12345",
+      "id": 10
+    }
+  ]
+}
